@@ -24,7 +24,7 @@ Scénario pédagogique pour les dark patterns
 - Version PDF
 - Code source (LaTeX)
 
-Scénario pédagogique pour l'IA générative
+Scénario pédagogique pour l'IA générative comme outil d'aide à l'innovation
 - Version PDF
 - Code source (LaTeX)
 

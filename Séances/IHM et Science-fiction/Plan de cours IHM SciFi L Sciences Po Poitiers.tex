@@ -1,0 +1,398 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+
+\documentclass[11pt, a4paper]{article}
+
+% ============================================
+% PACKAGES ESSENTIELS
+% ============================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+
+% ============================================
+% MISE EN PAGE
+% ============================================
+\usepackage[margin=2.5cm, top=3cm, bottom=3cm]{geometry}
+\usepackage{sectsty}
+\allsectionsfont{\sffamily}
+
+% Espacement des paragraphes
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+
+% ============================================
+% MATHÉMATIQUES ET SYMBOLES
+% ============================================
+\usepackage{amsmath, amssymb}
+
+% ============================================
+% TABLEAUX
+% ============================================
+\usepackage{longtable, booktabs, array}
+\usepackage{calc}
+
+% Amélioration des tableaux
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+
+% ============================================
+% TYPOGRAPHIE
+% ============================================
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath}
+
+% ============================================
+% LIENS ET RÉFÉRENCES
+% ============================================
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+  pdftitle={Scénario pédagogique : science-fiction et interfaces humain-machine},
+  pdfauthor={Nicolas Louveton},
+  colorlinks=true,
+  linkcolor=blue!50!black,
+  urlcolor=blue!70!black,
+  citecolor=blue!50!black,
+  hidelinks=false
+}
+\usepackage{xurl}
+\urlstyle{same}
+
+% ============================================
+% DIVERS
+% ============================================
+\setlength{\emergencystretch}{3em}
+\setcounter{secnumdepth}{-\maxdimen}
+
+% Commande personnalisée
+\newcommand{\parsom}{\par\hangindent=1.5em\hangafter=1}
+
+% ============================================
+% INFORMATIONS DU DOCUMENT
+% ============================================
+\title{\sffamily\bfseries Science-Fiction et IHM \\[0.5em]
+\large Plan de cours -- Licence Science Po. \\ Université de Poitiers }
+\author{Nicolas Louveton}
+\date{Janvier 2026}
+
+% ============================================
+% DÉBUT DU DOCUMENT
+% ============================================
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\vspace{1em}
+
+% ============================================
+% DESCRIPTION DU COURS
+% ============================================
+
+\section{Présentation et objectifs}
+
+La science-fiction est un type d'œuvre qui interpelle l'imagination, suscite un sentiment d'émerveillement ou de crainte, en s'appuyant sur les évolutions scientifiques et technologiques récentes ou anticipés. De ce point de vue la science-fiction a souvent été en anticipation des révolutions réelles. C'est particulièrement vrai dans le domaine des interfaces humain-machine (IHM) qui sont souvent marquantes dans les œuvres de science-fiction car elles retranscrivent le quotidien, les usages et implicitement les conséquences de ces technologies sur l'humain et la société.
+
+L'objectif de ce cours est d'utiliser la science-fiction comme illustration des choix de conception en IHM au sein des œuvres de fiction mais aussi avec une mise en relation avec l'existant. Ce faisant, il s'agira également d'initier un processus réflexivité éthique large autour des technologies émergentes, à la fois sur un plan individuel et collectif. Pour cela le référentiel de réflexivité éthique de l'OBVIA est mobilisé\footnote{Grille de réflexivité de l'OVIA pour l'enseignement supérieur et l'IA : \url{https://doi.org/10.61737/OXHA5372}}.
+
+
+\section{Compétences visées}
+
+\begin{itemize}
+  \item Analyser une interface réelle et fictive en la positionnant en termes de design, d'interactivité et d'usages ;
+  \item Identifier des enjeux éthiques de technologies fictives ou réelles ;
+  \item Construire une analyse argumentée et articulé sa communication du groupe de travail au groupe classe.
+\end{itemize}
+
+% ============================================
+% TRAME DES ACTIVITÉS
+% ============================================
+
+
+\section{Trame du cours}
+
+\subsection{Activité en amont du cours}
+
+Regarder la vidéo ``Hyperreality'' de Matsuda (2016). Vous pouvez regarder les
+quatre premières minutes (jusqu'à 4:15). \textit{Pour information, une scène contenant de la violence est visible à partir de la minute 5:00.}
+
+Répondre individuellement aux questions suivantes : 
+\begin{itemize}
+	\item A quelle époque cette vidéo prend place ? 
+	\item Quelles technologies sont mises en œuvres ?
+	\item Qu'ai-je ressenti ?
+	\item Ai-je déjà ressenti cela à propos d'une technologie qui existe dans mon quotidien ? 
+	\item Quel point de vue l'auteur cherche à nous transmettre ?
+\end{itemize}
+
+\textbf{Objectif :} préparer la reflexion aux enjeux éthiques de la technologie
+tel que la science-fiction peut nous y inviter.
+
+\textbf{Compétence OBVIA :} être en situation éthique.
+
+
+\subsection{Activité 1 : apprendre à regarder une interface de science-fction}
+
+Plusieurs sondes sont présentées aux étudiants sous forme d'image, essentiellement cinématographiques.
+
+En petits groupe, les étudiants choisissent une de ces sondes et l'analyse selon les critères fournis.
+
+Introduction des supports et questionnements :
+\begin{itemize}
+	\item Définition des niveaux de design : décrivez la technologie 
+	item Définition des paradigmes d'interactivité : quels paradigmes sont utilisés 
+	\item Domaine d'impact humain et social : quels domaines sont impactés ou pourraient l'être selon vous ?
+	\item Existe-t-il des technologies semblables dans votre quotidien ? 
+\end{itemize}
+
+
+\textbf{Objectif :} apprendre à analyser conceptuellement une interface en terme
+de design, de paradigme d'interaction et d'usages.
+
+\textbf{Compétences OBVIA :} agir en situation éthique, champ technologique et sociotechnique
+
+
+\subsection{Activité 2 : choix et analyse d'une interface de science-fiction}
+
+En petit groupe, les étudiants choisissent une œuvre de science-fiction
+et une technologie/interface qui est marquante dans cette œuvre.
+
+\textbf{Objectif :} développer une réflexion structurée sur les conséquences
+implicites du développement d'une nouvelle technologie.
+
+\textbf{Compétences OBVIA :} agir en situation éthique, champ technologique, moral, sociotechnique, réglementaire
+
+\subsubsection{Activité 2a}
+
+Réaliser la même analyse que précédemment.
+
+\subsubsection{Activité 2b}
+
+L'enseignant présente la grille de questionnement structuré. Vous remplissez cette grille sur la base du travail précédent.
+
+
+\subsection{Activité 3 : retour au réel}
+
+En petit groupe,vous choisissez une technologie/interface qui existe
+actuellement et qui vous semble proche de celle que vous venez
+d'analyser.
+
+textbf{Objectif :} il s'agit ici de se repositionner dans le domaine de l'existant, en mettant l'accent sur l'aspect réglementaire/déontologique ; il s'agit aussi de présenter sa réflexion en articulant le groupe de travail et la classe en vue d'un débat d'idées.
+
+\textbf{Compétences OBVIA :} être et interagir en situation éthique sur les différents champs.
+
+\subsubsection{Activité 3a}
+
+Créer un document de présentation (type PowerPoint) avec une seule diapo
+qui présente les enjeux de cette interface et les solutions que vous
+pensez possibles pour réguler ses effets positifs et négatifs de la technologie.
+
+\textit{Alternativement :} utilisez la grille remplie dans l'active 2b.
+
+\subsubsection{Activité 3b}
+
+Présentez votre diapo à la classe pendant 3 minutes maximum. Le reste du
+groupe réagit et débat sur le comportement à adopter face aux enjeux
+soulevés.
+
+
+% ============================================
+% RÉFÉRENCES
+% ============================================
+
+\section{Références}
+
+\subsection{Ressources additionnelles}
+
+\begin{itemize}
+  \item Matsuda, K. (Réalisateur). (2016). \textit{Hyper Reality} [Vidéo]. YouTube. \url{https://www.youtube.com/watch?v=YJg02ivYzSs}
+  \item Red Team. (s.d.). \textit{Le projet Red Team}. \url{https://redteamdefense.org/}
+  \item \textit{SciFi Interfaces}. (s.d.). \url{https://scifiinterfaces.com/}
+\end{itemize}
+
+\subsection{Bibliographie}
+
+\begin{itemize}
+  \item Marcus, A. (2013). The history of the future: Sci-fi movies and HCI. \textit{Interactions}, \textit{20}(4), 64--67. \url{https://doi.org/10.1145/2486227.2486240}
+  \item Raskin, J. (2000). \textit{The humane interface: New directions for designing interactive systems}. Addison-Wesley Professional.
+  \item Shedroff, N., et Noessel, C. (2012). \textit{Make it so: Interaction design lessons from science-fiction}. Rosenfeld Media.
+\end{itemize}
+
+
+
+% ============================================
+% GRILLES
+% ============================================
+
+\newpage
+
+\section{Documents pour les étudiants}
+
+Ci-dessous :
+
+\begin{itemize}
+  \item \hyperlink{definitions}{Éléments pour l'analyse d'interface}
+  \item \hyperlink{impact}{Repères pour les implications possibles}
+  \item \hyperlink{grille1}{Grille 1 : analyse d'interface}
+  \item \hyperlink{grille2}{Grille 2 : analyse des tensions éthiques}
+\end{itemize}
+
+\newpage
+
+\hypertarget{definitions}{}
+\subsection{Éléments pour l'analyse d'interface}
+
+
+\subsubsection{Trois pôles du design IHM}
+
+\begin{longtable}{|>{\raggedright\arraybackslash}p{0.3\textwidth}|>{\raggedright\arraybackslash}p{0.6\textwidth}|}
+\hline
+\textbf{Pôle} & \textbf{Description} \\
+\hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
+Industriel & Conception des éléments physiques de l'interface \\
+\hline
+Informationnelle & Conception de la présentation de l'information de façon que la communication fasse du sens \\
+\hline
+Interactifs & Conception des séquences d'action et de rétroaction \\
+\hline
+\end{longtable}
+
+
+\subsubsection{Paradigmes d'interactivité}
+
+\begin{longtable}{|>{\raggedright\arraybackslash}p{0.3\textwidth}|>{\raggedright\arraybackslash}p{0.6\textwidth}|}
+\hline
+\textbf{Paradigme} & \textbf{Description} \\
+\hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
+Contrôle mécanique / analogique & Interfaces mettant en œuvre des éléments physiques aussi bien pour les inputs que pour les outputs \\
+\hline
+Interfaces visuelles & Interfaces disposant d'affichages visuels pouvant mettre en œuvre des solutions de type ligne de commande, interface graphique, métaphore du bureau \\
+\hline
+Interfaces sonores & Interfaces utilisant les inputs et outputs sonores qui peuvent être de la voix, de la musique ou des « earcons » \\
+\hline
+Mouvement et physiologie & Interfaces capables de percevoir les mouvements du corps (déplacement des segments du corps) mais aussi des informations plus subtiles comme les mouvements oculaires ou les battements du cœur \\
+\hline
+Réalité et virtualité & Toutes les interfaces qui mélangent la sphère physique et cyber à différents degrés de la réalité virtuelle complète jusqu'aux hologrammes en passant par la réalité augmentée \\
+\hline
+Interface Cerveau-Machine & Interfaces qui utilisent les mesures d'activité cérébrales comme input voire comme commande \\
+\hline
+Anthropomorphisme & Interfaces qui prennent les apparences visuelles, vocales etc. de l'humain \\
+\hline
+\end{longtable}
+
+\newpage
+
+\hypertarget{impact}{}
+\subsection{Repères pour les implications possibles}
+
+Voici une liste (non exhaustive) de champ à explorer pour l'analyse des impacts potentiels :
+\begin{itemize}
+    \item Relations sociales et communication inter-individuelle
+    \item Relation à l'espace et au temps
+    \item Travailler, apprendre, comprendre
+    \item Sens de la vie, relation à la mort
+    \item Médecine, réparer, transformer le corps
+    \item Sentiments et sexualité
+    \item Guerre, manipulation, contrôle
+\end{itemize}
+
+\newpage
+
+
+\hypertarget{grille1}{}
+\subsection{Grille d'analyse d'interface}
+
+\textbf{Noms et prénoms des étudiants du groupe :}
+
+\vspace{1em}
+
+\textbf{Œuvre \ interface choisies :}
+
+\vspace{1em}
+
+\begin{longtable}{|>{\raggedright\arraybackslash}p{0.22\textwidth}|>{\raggedright\arraybackslash}p{0.23\textwidth}|>{\raggedright\arraybackslash}p{0.23\textwidth}|>{\raggedright\arraybackslash}p{0.23\textwidth}|}
+
+\hline
+\textbf{Paradigme / pôle de design} & \textbf{Industriel} & \textbf{Informationnel} & \textbf{Interactif} \\
+\hline
+\endhead
+
+\hline
+\endfoot
+
+\hline
+\endlastfoot
+
+Contrôle mécanique / analogique & & & \\[2em]
+\hline
+Interfaces visuelles & & & \\[2em]
+\hline
+Interfaces sonores & & & \\[2em]
+\hline
+Mouvement et physiologie & & & \\[2em]
+\hline
+Réalité et virtualité & & & \\[2em]
+\hline
+Interface Cerveau-Machine & & & \\[2em]
+\hline
+Anthropomorphisme & & & \\[2em]
+\hline
+\end{longtable}
+
+\vspace{2em}
+
+
+\newpage
+
+\hypertarget{grille2}{}
+\subsection{Grille d'analyse des tensions éthiques}
+
+\textbf{Noms et prénoms des étudiants du groupe :}
+
+\vspace{1em}
+
+\textbf{Œuvre \ technologie choisies :}
+
+\vspace{1em}
+
+\begin{longtable}{|>{\raggedright\arraybackslash}p{0.38\textwidth}|>{\raggedright\arraybackslash}p{0.52\textwidth}|}
+\hline
+\textbf{Rubriques} & \textbf{Observations} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Interface identifiée} & \\[2em]
+\hline
+\textbf{Mécanismes sous-jacents au fonctionnement de cette technologie} & \\[3em]
+\hline
+\textbf{Conflit d'intérêts entre les promoteurs de l'interface et les utilisateurs finaux} & \\[3em]
+\hline
+\textbf{Dilemmes moraux et tension de valeurs que l'usage de cette technologie implique} & \\[3em]
+\hline
+\textbf{Anticipations des effets sur la société et les individus à différentes échelles de temps} & \\[3em]
+\hline
+\textbf{Cadre légal (réel, fictif, anticipé) pour réguler ce type de situation} & \\[3em]
+\hline
+\end{longtable}
+
+\end{document}
+
+
+
+
+

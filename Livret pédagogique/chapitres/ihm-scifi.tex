@@ -1,97 +1,7 @@
-% Options for packages loaded elsewhere
-\PassOptionsToPackage{unicode}{hyperref}
-\PassOptionsToPackage{hyphens}{url}
 
-\documentclass[11pt, a4paper]{article}
 
 % ============================================
-% PACKAGES ESSENTIELS
-% ============================================
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[french]{babel}
-\usepackage{lmodern}
-
-% ============================================
-% MISE EN PAGE
-% ============================================
-\usepackage[margin=2.5cm, top=3cm, bottom=3cm]{geometry}
-\usepackage{sectsty}
-\allsectionsfont{\sffamily}
-
-% Espacement des paragraphes
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-
-% ============================================
-% MATHÉMATIQUES ET SYMBOLES
-% ============================================
-\usepackage{amsmath, amssymb}
-
-% ============================================
-% TABLEAUX
-% ============================================
-\usepackage{longtable, booktabs, array}
-\usepackage{calc}
-
-% Amélioration des tableaux
-\usepackage{etoolbox}
-\makeatletter
-\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
-\makeatother
-
-% ============================================
-% TYPOGRAPHIE
-% ============================================
-\usepackage{microtype}
-\UseMicrotypeSet[protrusion]{basicmath}
-
-% ============================================
-% LIENS ET RÉFÉRENCES
-% ============================================
-\usepackage{xcolor}
-\usepackage{hyperref}
-\hypersetup{
-  pdftitle={Scénario pédagogique : science-fiction et interfaces humain-machine},
-  pdfauthor={Nicolas Louveton},
-  colorlinks=true,
-  linkcolor=blue!50!black,
-  urlcolor=blue!70!black,
-  citecolor=blue!50!black,
-  hidelinks=false
-}
-\usepackage{xurl}
-\urlstyle{same}
-
-% ============================================
-% DIVERS
-% ============================================
-\setlength{\emergencystretch}{3em}
-\setcounter{secnumdepth}{-\maxdimen}
-
-% Commande personnalisée
-\newcommand{\parsom}{\par\hangindent=1.5em\hangafter=1}
-
-% ============================================
-% INFORMATIONS DU DOCUMENT
-% ============================================
-\title{\sffamily\bfseries Scénario pédagogique\\[0.5em]
-\large Science-fiction et interfaces humain-machine}
-\author{Nicolas Louveton}
-\date{Janvier 2026}
-
-% ============================================
-% DÉBUT DU DOCUMENT
-% ============================================
-\begin{document}
-
-\maketitle
-\thispagestyle{empty}
-
-\vspace{1em}
-
-% ============================================
-% DESCRIPTION DU COURS
+% DESCRIPTION DU COURS SCI-FI IHM et Innov
 % ============================================
 
 \section{Objectif}
@@ -246,6 +156,8 @@ Anthropomorphisme & & & \\[2em]
 
 \vspace{2em}
 
+\newpage
+
 \textbf{Explications des catégories}
 
 \begin{longtable}{|>{\raggedright\arraybackslash}p{0.22\textwidth}|>{\raggedright\arraybackslash}p{0.32\textwidth}|>{\raggedright\arraybackslash}p{0.18\textwidth}|>{\raggedright\arraybackslash}p{0.18\textwidth}|}
@@ -316,5 +228,3 @@ Anthropomorphisme & Interfaces qui prennent les apparences visuelles, vocales et
 \textbf{Cadre légal (réel, fictif, anticipé) pour réguler ce type de situation} & \\[3em]
 \hline
 \end{longtable}
-
-\end{document}

@@ -1,0 +1,10 @@
+*.odp
+*.rtf
+*.out
+*.log
+*.synctex.gz
+*.fls
+*.aux
+*.fdb_latexmk
+*.toc
+*.pdf

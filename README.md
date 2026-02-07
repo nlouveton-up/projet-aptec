@@ -1,4 +1,8 @@
-# Scénarios et compétences éthiques pour les technologies émergentes
+# Projet APTEC
+
+*APTEC : Action Participative pour les Technologies Émergentes et leur Conception.*
+
+Vous trouverez dans ce dépôt des scénarios pédagogiques pour développer et évaluer les compétences de conception participative et de réflexivité éthique pour les technologies émergentes.
 
 Les scénarios pédagogiques présentés ici sont en cours de construction, test et amélioration.
 

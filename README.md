@@ -33,14 +33,16 @@ Scénario pédagogique pour l'IA générative comme outil d'aide à l'innovation
 - Code source (LaTeX)
 
 Référentiel de compétence
-- [Version PDF](https://github.com/nlouveton-up/etique-tech/blob/main/comp%C3%A9tences/r%C3%A9f%C3%A9rentiel-comp%C3%A9tences-%C3%A9thique-techno-%C3%A9mergentes.pdf)
-- [Code source (LaTeX)](https://github.com/nlouveton-up/etique-tech/blob/main/comp%C3%A9tences/r%C3%A9f%C3%A9rentiel-comp%C3%A9tences-%C3%A9thique-techno-%C3%A9mergentes.tex)
+- [Version PDF](https://github.com/nlouveton-up/projet-aptec/blob/main/tex/S%C3%A9ances/IHM%20et%20Science-fiction/Plan%20de%20cours%20IHM%20SciFi%20L%20Sciences%20Po%20Poitiers.pdf)
+- [Code source (LaTeX)](https://github.com/nlouveton-up/projet-aptec/blob/main/tex/S%C3%A9ances/IHM%20et%20Science-fiction/Plan%20de%20cours%20IHM%20SciFi%20L%20Sciences%20Po%20Poitiers.tex)
 
 ## Références
 
 ### Référentiel de compétences éthique
 
-[Téléchargez le référentiel de compétences](https://github.com/nlouveton-up/etique-tech/blob/main/comp%C3%A9tences/r%C3%A9f%C3%A9rentiel-comp%C3%A9tences-%C3%A9thique-techno-%C3%A9mergentes.pdf)
+[Téléchargez le référentiel de compétences](https://github.com/nlouveton-up/projet-aptec/blob/main/tex/R%C3%A9f%C3%A9rentiel/r%C3%A9f%C3%A9rentiel-comp%C3%A9tences-%C3%A9thique-techno-%C3%A9mergentes.pdf)
+
+Version [LaTeX](https://github.com/nlouveton-up/projet-aptec/blob/main/tex/R%C3%A9f%C3%A9rentiel/r%C3%A9f%C3%A9rentiel-comp%C3%A9tences-%C3%A9thique-techno-%C3%A9mergentes.tex)
 
 Bibliographie :
 

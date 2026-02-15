@@ -20,9 +20,9 @@ Les scénarios décrivent un contexte, une série d'activités pédagogiques cor
 
 ## Comment utiliser ces scénarios ?
 
-Scénario pédagogique pour la science-fiction et les interfaces humain-machine
-- [Version PDF](https://github.com/nlouveton-up/etique-tech/blob/main/scifi-ihm/scenario-pedagogique-ethique-scifi-ihm.pdf)
-- [Code source (LaTeX)](https://github.com/nlouveton-up/etique-tech/blob/main/scifi-ihm/scenario-pedagogique-ethique-scifi-ihm.tex)
+Scénario pédagogique pour  le cours "science-fiction et interfaces humain-machine" :
+- [Version PDF](https://github.com/nlouveton-up/projet-aptec/blob/main/tex/S%C3%A9ances/IHM%20et%20Science-fiction/Plan%20de%20cours%20IHM%20SciFi%20L%20Sciences%20Po%20Poitiers.pdf)
+- [Code source (LaTeX)](https://github.com/nlouveton-up/projet-aptec/blob/main/tex/S%C3%A9ances/IHM%20et%20Science-fiction/Plan%20de%20cours%20IHM%20SciFi%20L%20Sciences%20Po%20Poitiers.tex)
 
 Scénario pédagogique pour les dark patterns
 - Version PDF
@@ -33,16 +33,14 @@ Scénario pédagogique pour l'IA générative comme outil d'aide à l'innovation
 - Code source (LaTeX)
 
 Référentiel de compétence
-- [Version PDF](https://github.com/nlouveton-up/projet-aptec/blob/main/tex/S%C3%A9ances/IHM%20et%20Science-fiction/Plan%20de%20cours%20IHM%20SciFi%20L%20Sciences%20Po%20Poitiers.pdf)
-- [Code source (LaTeX)](https://github.com/nlouveton-up/projet-aptec/blob/main/tex/S%C3%A9ances/IHM%20et%20Science-fiction/Plan%20de%20cours%20IHM%20SciFi%20L%20Sciences%20Po%20Poitiers.tex)
+- [Version PDF](https://github.com/nlouveton-up/projet-aptec/blob/main/tex/R%C3%A9f%C3%A9rentiel/r%C3%A9f%C3%A9rentiel-comp%C3%A9tences-%C3%A9thique-techno-%C3%A9mergentes.pdf)
+- [Code source (LaTeX)](https://github.com/nlouveton-up/projet-aptec/blob/main/tex/R%C3%A9f%C3%A9rentiel/r%C3%A9f%C3%A9rentiel-comp%C3%A9tences-%C3%A9thique-techno-%C3%A9mergentes.tex)
 
 ## Références
 
 ### Référentiel de compétences éthique
 
 [Téléchargez le référentiel de compétences](https://github.com/nlouveton-up/projet-aptec/blob/main/tex/R%C3%A9f%C3%A9rentiel/r%C3%A9f%C3%A9rentiel-comp%C3%A9tences-%C3%A9thique-techno-%C3%A9mergentes.pdf)
-
-Version [LaTeX](https://github.com/nlouveton-up/projet-aptec/blob/main/tex/R%C3%A9f%C3%A9rentiel/r%C3%A9f%C3%A9rentiel-comp%C3%A9tences-%C3%A9thique-techno-%C3%A9mergentes.tex)
 
 Bibliographie :
 
